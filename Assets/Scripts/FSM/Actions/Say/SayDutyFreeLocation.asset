@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402af236235cb0541aeb565707540339, type: 3}
+  m_Name: SayDutyFreeLocation
+  m_EditorClassIdentifier: 
+  condition: {fileID: 11400000, guid: 187a813c304a27347a3266c25c2ee8a5, type: 2}
+  audioF: {fileID: 8300000, guid: 37d23f6acde194c4ea49e75ce346daa2, type: 3}
+  audioM: {fileID: 8300000, guid: 71a943cdc70315744a3d4e9f082e9b24, type: 3}
+  text: El duty free esta en el lado izquierdo de la estacion

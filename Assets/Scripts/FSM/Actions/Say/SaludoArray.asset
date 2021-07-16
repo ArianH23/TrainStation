@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7e4e869bb803143b24a69ab59ac27f, type: 3}
+  m_Name: SaludoArray
+  m_EditorClassIdentifier: 
+  condition: {fileID: 0}
+  audioF:
+  - {fileID: 8300000, guid: 0b6be0822f069f8449016db645c86d53, type: 3}
+  - {fileID: 8300000, guid: 7bf594a54befc8c4ba6f464165955e70, type: 3}
+  - {fileID: 8300000, guid: a01a859aa7fc516478a764666976dd25, type: 3}
+  audioM:
+  - {fileID: 8300000, guid: c3a00c9ef00499b4ca86d4bd82a40e72, type: 3}
+  - {fileID: 8300000, guid: b47dc8c3e3c45dc4ba3e0cbe90303c15, type: 3}
+  - {fileID: 8300000, guid: 717343efbf386484c934628933058b14, type: 3}
+  text: "Hola, \xBFcomo te puedo ayudar?"
