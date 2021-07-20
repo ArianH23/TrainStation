@@ -19,3 +19,8 @@ MonoBehaviour:
   - tiquet
   - ticket
   - tarjeta
+  wordsEnglish:
+  - ticket
+  - bill
+  - fare
+  - billet

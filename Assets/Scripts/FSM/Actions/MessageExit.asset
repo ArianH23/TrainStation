@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   condition: {fileID: 0}
   message: "Entra en el and\xE9n."
+  messageEnglish: Enter the platform
   duration: 3

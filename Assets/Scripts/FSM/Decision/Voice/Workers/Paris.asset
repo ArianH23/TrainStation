@@ -15,3 +15,5 @@ MonoBehaviour:
   words:
   - "par\xEDs"
   - paris
+  wordsEnglish:
+  - washington

@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   condition: {fileID: 0}
   message: Compra un ticket a Paris
+  messageEnglish: Buy a ticket to Washington DC
   duration: 5

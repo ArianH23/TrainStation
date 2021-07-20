@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   condition: {fileID: 0}
   message: Valida tu ticket
+  messageEnglish: Validate your ticket
   duration: 5

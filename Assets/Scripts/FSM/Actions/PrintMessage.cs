@@ -6,10 +6,20 @@ using UnityEngine;
 public class PrintMessage : FSMaction {
 
 	public string message;
+	public string messageEnglish;
 	public float duration;
 
 	public override void Act(FSMcontroller controller) {
-		MessageVR.PrintMessage(message, duration);
+		int size = 125;
+		if (Language.instance.English())
+		{
+			if (messageEnglish.Length > 26)	size = 100;
+			MessageVR.PrintMessage(messageEnglish, duration, size);
+		}
+		else
+		{
+			MessageVR.PrintMessage(message, duration, size);
+		}
 	}
 
 }

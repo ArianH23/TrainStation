@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   condition: {fileID: 0}
   message: Compra un ticket a Girona
+  messageEnglish: Buy a ticket to New York
   duration: 5
