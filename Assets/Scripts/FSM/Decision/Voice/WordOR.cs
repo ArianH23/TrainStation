@@ -6,16 +6,29 @@ using UnityEngine;
 public class WordOR : FSMdecision
 {
 	public string[] words;
+	public string[] wordsEnglish;
+
 	public override bool Decide(FSMcontroller controller)
 	{
 		if (SentenceAnalyzer.instance.sentence != null)
 		{
 			string sentence = SentenceAnalyzer.instance.sentence;
-			foreach (string word in words)
+
+			if (Language.instance.English())
 			{
-				if (sentence.Contains(word)) return true;
+				foreach (string word in wordsEnglish)
+				{
+					if (sentence.Contains(word)) return true;
+				}
 			}
 
+			else
+			{
+				foreach (string word in words)
+				{
+					if (sentence.Contains(word)) return true;
+				}
+			}
 		}
 		return false;
 	}

@@ -7,8 +7,9 @@ using UnityEngine;
 public class KeyWordUpdate : FSMaction
 {
 	public WordOR[] arrayOfWordLists;
+
 	public override void Act(FSMcontroller controller)
-	{
+	{		
 		KeywordsBox.instance.updateCurrentKeywords(arrayOfWordLists);
 	}
 }

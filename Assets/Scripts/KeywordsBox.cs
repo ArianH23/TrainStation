@@ -8,11 +8,10 @@ public class KeywordsBox : MonoBehaviour
 {
     public static KeywordsBox instance;
     private TMP_Text t;
+    public TMP_Text askFor;
     WordOR[] arrayWithKeywords;
     List <string> wordsToBeDisplayed;
 
-
-    // Start is called before the first frame update
     void Awake()
     {
         if (KeywordsBox.instance) Destroy(this);
@@ -22,15 +21,23 @@ public class KeywordsBox : MonoBehaviour
         TurnXKeyWordDisplay(false);
     }
 
+    private void Start()
+    {
+        if (Language.instance.English()) askFor.text = "Ask for:";
+    }
+
     public void updateCurrentKeywords(WordOR[] array)
     {
         wordsToBeDisplayed.Clear();
 
+
         foreach (WordOR dec in array)
         {
-            //foreach (string word in dec.words) {
-                wordsToBeDisplayed.Add(dec.words[0]);
-            //}
+            if(Language.instance.English())
+            wordsToBeDisplayed.Add(dec.wordsEnglish[0]);
+
+            else wordsToBeDisplayed.Add(dec.words[0]);
+
         }
 
         string text = "";
@@ -40,12 +47,7 @@ public class KeywordsBox : MonoBehaviour
         }
         t.text = text;
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
 
-    }
     public void TurnXKeyWordDisplay(bool OnOff)
     {
         foreach (Transform child in transform)
