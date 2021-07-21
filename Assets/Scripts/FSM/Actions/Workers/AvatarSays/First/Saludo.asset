@@ -15,4 +15,7 @@ MonoBehaviour:
   condition: {fileID: 0}
   audioF: {fileID: 8300000, guid: 0b6be0822f069f8449016db645c86d53, type: 3}
   audioM: {fileID: 8300000, guid: c3a00c9ef00499b4ca86d4bd82a40e72, type: 3}
+  audioFEnglish: {fileID: 8300000, guid: c2fc73aa01f4d91429ecc126db15aa94, type: 3}
+  audioMEnglish: {fileID: 8300000, guid: e866337d63fceab4295fe44fd43473bb, type: 3}
   text: "Buenos dias, \xBFEn que le puedo ayudar?"
+  textEnglish: Hi, How may I help you?

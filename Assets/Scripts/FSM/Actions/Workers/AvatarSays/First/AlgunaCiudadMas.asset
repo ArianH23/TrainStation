@@ -15,5 +15,7 @@ MonoBehaviour:
   condition: {fileID: 11400000, guid: 8a266a74798ff304ca01295f55a7702e, type: 2}
   audioF: {fileID: 8300000, guid: 2d5e0aa78863dd04eb47c4189bcba7c2, type: 3}
   audioM: {fileID: 8300000, guid: 9b03d3938afc5a0458ec40fad9ddd5cc, type: 3}
+  audioFEnglish: {fileID: 8300000, guid: e9dd43a4b96f742408a2ad4afc24c94c, type: 3}
+  audioMEnglish: {fileID: 8300000, guid: c4427de5e8ab5694cb51d40228f69229, type: 3}
   text: "Ok, \xBFpara alguna ciudad mas?"
   textEnglish: Ok. do you want to go anywhere else?

@@ -15,4 +15,7 @@ MonoBehaviour:
   condition: {fileID: 0}
   audioF: {fileID: 8300000, guid: eb92eb36e4062c042ae56c907d9a53c8, type: 3}
   audioM: {fileID: 8300000, guid: c7d8b023fcbd54445abfd081b44c012a, type: 3}
+  audioFEnglish: {fileID: 8300000, guid: 1b3dde064e088654c8b290876188f7e8, type: 3}
+  audioMEnglish: {fileID: 8300000, guid: 4cb246942b5784a4f820d704cb9f5dbf, type: 3}
   text: Bien necesito su nombre para el billete.
+  textEnglish: Ok, I will need your name for the ticket

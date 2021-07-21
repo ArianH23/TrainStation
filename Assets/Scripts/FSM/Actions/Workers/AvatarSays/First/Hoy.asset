@@ -15,5 +15,7 @@ MonoBehaviour:
   condition: {fileID: 0}
   audioF: {fileID: 8300000, guid: 1118b3392de94df49a107fa4331cfdf7, type: 3}
   audioM: {fileID: 8300000, guid: 97b39c9e60585994b94146a6b01fac88, type: 3}
+  audioFEnglish: {fileID: 8300000, guid: badcc64ac03b2ea4b9808db2c3260cd7, type: 3}
+  audioMEnglish: {fileID: 8300000, guid: c7600853fe0126e448d11a44f93521e4, type: 3}
   text: El trayecto Barcelona-Girona es para hoy?
   textEnglish: Is the trip from boston to new york for today?

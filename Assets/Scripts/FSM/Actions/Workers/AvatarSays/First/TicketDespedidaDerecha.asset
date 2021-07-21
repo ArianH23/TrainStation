@@ -15,6 +15,8 @@ MonoBehaviour:
   condition: {fileID: 0}
   audioF: {fileID: 8300000, guid: 484af152baa44914fbc6c28772c9e499, type: 3}
   audioM: {fileID: 8300000, guid: 2c038f436b96cf149b94716e4b32b9cd, type: 3}
+  audioFEnglish: {fileID: 8300000, guid: e56825e423e6411439ee651cecf20b62, type: 3}
+  audioMEnglish: {fileID: 8300000, guid: f702b0a886152f94bb7f71bd2742dbb0, type: 3}
   text: De acuerdo, aqui tiene su billete recuerde que si quiere el billete a Paris
     lo podra adquirir en las otras taquillas. Adios, y buen viaje.
   textEnglish: Ok, here is your  ticket. remember that if you want to go to Washington

@@ -15,6 +15,8 @@ MonoBehaviour:
   condition: {fileID: 0}
   audioF: {fileID: 8300000, guid: e1d8ee365453fba4280253d300cea84d, type: 3}
   audioM: {fileID: 8300000, guid: eddddadb3a4f9c943a8cc79231e8da13, type: 3}
+  audioFEnglish: {fileID: 8300000, guid: 7c56cbaa71fafb3479401c66bdcf90a8, type: 3}
+  audioMEnglish: {fileID: 8300000, guid: a61785b8e4b398f4fb00da033bf2b98a, type: 3}
   text: "De acuerdo, el tren a Girona saldr\xE1 en una hora, espere un momento, en
     seguida le emito el billete."
   textEnglish: Alright. the train to new york is leaving in an hour. wait a second.

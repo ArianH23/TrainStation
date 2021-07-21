@@ -15,4 +15,7 @@ MonoBehaviour:
   condition: {fileID: 0}
   audioF: {fileID: 8300000, guid: d3c288cd3449b1f4fade5fcad5cab0d8, type: 3}
   audioM: {fileID: 8300000, guid: c5be5fe3da18c804ba92cc641c8c5a30, type: 3}
+  audioFEnglish: {fileID: 8300000, guid: 8e47a6810fc784440b6f5ca5ffc2449e, type: 3}
+  audioMEnglish: {fileID: 8300000, guid: 7c0913777de891e4f80ef36c9c2e5fe7, type: 3}
   text: Estupendo, su billete ya esta validado, puede usted pasar.
+  textEnglish: Great, your ticket has been validated. You may come in
