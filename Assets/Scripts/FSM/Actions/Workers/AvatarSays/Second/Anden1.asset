@@ -18,3 +18,6 @@ MonoBehaviour:
   text: Bien, aqui tiene su billete, recuerde que el tren a Girona saldra en una
     hora, tiene usted que ir al anden numero 1 y ahi le validaran su billete. Adios,
     y buen viaje.
+  textEnglish: Ok, here you have your ticket, remember that the train to new york
+    is leaving in an hour, you should go to the platform number one and validate
+    your ticket. Good bye and have a nice trip.

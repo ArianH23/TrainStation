@@ -16,3 +16,5 @@ MonoBehaviour:
   audioF: {fileID: 8300000, guid: ae0253f6daf06ed45990872afbcae74a, type: 3}
   audioM: {fileID: 8300000, guid: 60c9370ff9140bd4ba433bfc03497ec6, type: 3}
   text: "El tren a Paris sale de Girona, \xBFcuantos dias estara usted en Girona?"
+  textEnglish: The train to Washington is leaving from New york. How long will you
+    be staying in New York?

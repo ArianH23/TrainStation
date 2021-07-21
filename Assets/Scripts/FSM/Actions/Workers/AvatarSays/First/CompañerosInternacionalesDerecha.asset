@@ -17,3 +17,5 @@ MonoBehaviour:
   audioM: {fileID: 8300000, guid: 31945c693b0025c4eb90a25e00835543, type: 3}
   text: "Ok, yo solamente puedo venderle billetes nacionales, mis compa\xF1eros podran
     venderle los internacionales, \xBFvale?"
+  textEnglish: Ok. I only sell tickets to that place, if you want to go anywhere
+    else you should ask the other ticket sellers. ok?

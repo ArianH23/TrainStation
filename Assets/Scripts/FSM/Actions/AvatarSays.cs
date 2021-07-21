@@ -8,6 +8,7 @@ public class AvatarSays : FSMaction
 {
     public AudioClip audioF, audioM;
     public string text;
+    public string textEnglish;
     public override void Act(FSMcontroller controller)
     {
         if (VoiceRecognizer.instance.startedAnalysis)

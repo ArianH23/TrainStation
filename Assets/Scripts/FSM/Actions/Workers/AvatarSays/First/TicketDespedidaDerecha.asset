@@ -17,3 +17,5 @@ MonoBehaviour:
   audioM: {fileID: 8300000, guid: 2c038f436b96cf149b94716e4b32b9cd, type: 3}
   text: De acuerdo, aqui tiene su billete recuerde que si quiere el billete a Paris
     lo podra adquirir en las otras taquillas. Adios, y buen viaje.
+  textEnglish: Ok, here is your  ticket. remember that if you want to go to Washington
+    you should ask the other ticket sellers. Good bye and have a nice trip!

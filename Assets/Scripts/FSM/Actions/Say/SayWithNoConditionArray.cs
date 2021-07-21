@@ -8,7 +8,12 @@ public class SayWithNoConditionArray : FSMaction
 {
     public AudioClip[] audioF;
     public AudioClip[] audioM;
+
+    public AudioClip[] audioFEnglish;
+    public AudioClip[] audioMEnglish;
+
     public string text;
+    public string textEnglish;
 
     public override void Act(FSMcontroller controller)
     {
