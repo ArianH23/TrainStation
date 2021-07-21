@@ -17,8 +17,16 @@ public class SayWithNoConditionArray : FSMaction
 
     public override void Act(FSMcontroller controller)
     {
-        controller.GetComponent<Interaction>().Say(audioF, audioM);
+        if (Language.instance.English())
+        {
+            controller.GetComponent<Interaction>().Say(audioFEnglish, audioMEnglish);
+            ConversationText.instance.StoreSentence(false, textEnglish);
+        }
+        else
+        {
+            controller.GetComponent<Interaction>().Say(audioF, audioM);
+            ConversationText.instance.StoreSentence(false, text);
+        }
         VoiceRecognizer.instance.startedAnalysis = false;
-        ConversationText.instance.StoreSentence(false, text);
     }
 }

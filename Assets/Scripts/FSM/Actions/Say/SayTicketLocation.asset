@@ -15,4 +15,7 @@ MonoBehaviour:
   condition: {fileID: 11400000, guid: 771c42875a52b3d4d9d860865088dfd9, type: 2}
   audioF: {fileID: 8300000, guid: 691d396c8f7766e4ebd3acc10c13b669, type: 3}
   audioM: {fileID: 8300000, guid: 88174e916ea56d04ea4fc59acd55e6f0, type: 3}
+  audioFEnglish: {fileID: 8300000, guid: 70c6d69cf52ac5c4da00e5a1fc80cb62, type: 3}
+  audioMEnglish: {fileID: 8300000, guid: f82e5d90576786a4d93c0aef0dfc6cc7, type: 3}
   text: "Hay un puesto de venta de billetes al pasar de la entrada de la estaci\xF3n"
+  textEnglish: There is a ticket sale stand right after entering the station.
